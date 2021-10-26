@@ -16,6 +16,7 @@ module "produto" {
   #source  =  "git@github.com:dcamppos83/terraform-basico-modulo.git?ref=v1.0.0"
   source  =  "git@github.com:dcamppos83/terraform-basico-modulo.git?ref=main"
   environment = "production"
+  enable_sg   = true
 }
 
 output "ip_address" {
